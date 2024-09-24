@@ -1,4 +1,4 @@
-# ZK SNARK  
+# ZK SNARK Designer
 
 This provides an overview of a custom zero-knowledge circuit implemented using the Circom language. The circuit, named `CustomCircuit`, demonstrates the creation of logic gates and their connections to create a custom computation. The resulting circuit can be used to generate zero-knowledge proofs for certain computations while keeping the input values private.
 
