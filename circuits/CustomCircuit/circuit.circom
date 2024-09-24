@@ -1,17 +1,14 @@
 pragma circom 2.0.0;
 
-/*This circuit template checks that c is the multiplication of a and b.*/  
-
-template CustomCircuit () {  
-    //signal inputs 
+template CustomCircuit () {   
     signal input a;
     signal input b;
-    //signal from gates
+    
     signal x;
     signal d;
-    //final signal output
+    
     signal output y;
-    //component gates used to create custom circuit
+    
     component andGate=AND();
     component notGate=NOT();
     component orGate=OR();
